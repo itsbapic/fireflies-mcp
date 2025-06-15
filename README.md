@@ -1,5 +1,7 @@
 # Fireflies MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@itsbapic/fireflies-mcp)](https://smithery.ai/server/@itsbapic/fireflies-mcp)
+
 MCP Server for the Fireflies.ai API, enabling transcript retrieval, search, and summary generation.
 
 ### Features
@@ -71,6 +73,15 @@ To use this with Claude Desktop, add the following to your `claude_desktop_confi
 
 ## Installation
 
+### Installing via Smithery
+
+To install fireflies-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@itsbapic/fireflies-mcp):
+
+```bash
+npx -y @smithery/cli install @itsbapic/fireflies-mcp --client claude
+```
+
+### Manual Installation
 1. Clone this repository
 2. Install dependencies:
 
